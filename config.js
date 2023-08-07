@@ -3,29 +3,29 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER.split(",")
+global.owner = process.env.OWNER_NUMBER.split("92308299085,923142478085")
 global.mongodb = process.env.MONGODB_URI || "Enter-MongoURI-HERE"
 global.port= process.env.PORT || 5000
-global.email = 'sam@sec.live'
-global.github = 'https://github.com/prabathLK/PRABATH-MD'
-global.location = 'Sultanpur IN'
-global.gurl = 'https://instagram.com/' // add your username
-global.devs = '94762280384';
-global.website = 'https://github.com/prabathLK/PRABATH-MD' //wa.me/+94762280384
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://i.imgur.com/H062oEI.jpeg'
+global.email = 'msy37994@gmail.com'
+global.github = 'https://github.com/Rawmver/PRABATH-MD'
+global.location = 'Karachi PK'
+global.gurl = 'https://instagram.com/itzz____saqiiii' // add your username
+global.devs = '923082990885';
+global.website = 'https://github.com/Rawmver/PRABATH-MD' //wa.me/+94762280384
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://i.imgur.com/OnWQHIS.jpeg'
 module.exports = {
   OPENAI_API_KEY:process.env.OPENAI_API_KEY || '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',
-  botname: process.env.BOT_NAME || 'PRABATH-MD',
+  botname: process.env.BOT_NAME || 'LUCIFER-MD',
   dl_limit: process.env.DL_SIZE || '300',
   art: process.env.AUTO_RESTART || 'true',
   sudo: process.env.SUDO || '94762280384',
-  alivepic: process.env.ALIVE_IMG || 'https://telegra.ph/file/ad25b2227fa2a1a01b707.jpg',
-  alivemsj: process.env.ALIVE_MSJ || '*POWERD BY PRABATH-MD* 🎊',
-  ownername:process.env.OWNER_NAME || 'PRABATH',
+  alivepic: process.env.ALIVE_IMG || 'https://i.imgur.com/OnWQHIS.jpeg',
+  alivemsj: process.env.ALIVE_MSJ || '*POWERD BY LUCIFER-MD* 🎊',
+  ownername:process.env.OWNER_NAME || 'LUCIFER',
   sessionName: process.env.SESSION_ID || 'PUT-HERE',
-  author: process.env.PACK_INFO.split(";")[0] || 'author', 
+  author: process.env.PACK_INFO.split(";")[0] || 'LUCIFER', 
   auto_read_status : process.env.AUTO_READ_STATUS || 'false',
-  packname: process.env.PACK_INFO.split(";")[1] || 'Name',
+  packname: process.env.PACK_INFO.split(";")[1] || 'LUCI',
   autoreaction: process.env.AUTO_REACTION || 'off',
   antibadword : process.env.ANTI_BAD_WORD || 'fuck,huth,fucking,huththa,huththo,hukanna,fucked,pakaya,pako,ponnaya,ponnayo,kariya,kariyo,huththaa,hutta',
   alwaysonline: process.env.ALWAYS_ONLINE || 'true',
@@ -35,7 +35,7 @@ module.exports = {
   warncount : process.env.WARN_COUNT || 3,
   disablepm: process.env.DISABLE_PM || "flase",
   levelupmessage: process.env.LEVEL_UP_MESSAGE || 'false',
-  antilink: process.env.ANTILINK_VALUES || 'chat.whatsapp.com',
+  antilink: process.env.ANTILINK_VALUES || 'chat.whatsapp.com,youtube.com,facebook.com,twitter.com',
   antilinkaction: process.env.ANTILINK_ACTION || 'remove',
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || 'put your herokuapp name',
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || 'put your heroku_api_key',
